@@ -1,0 +1,13 @@
+安装完后显示内网IP URL
+Access Server Web UIs are available here:
+Admin  UI: https://172.26.33.130:943/admin
+Client UI: https://172.26.33.130:943/
+To login please use the "openvpn" account with "crthkweTpsCa" password.
+(password can be changed on Admin UI)
+
+配置文件修改"host.name”为公网IP
+/usr/local/openvpn_as/config-local.json
+
+URL Network Settings 也要修改Hostname or IP Address:
+
+有必要可以把 URL VPN Settings Routing 去掉
